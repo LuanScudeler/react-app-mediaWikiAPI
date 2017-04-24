@@ -1,0 +1,44 @@
+.title {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*cros-axis*/
+  background: white;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+button .fa {
+  font-size: 1.45em;  
+  color: brown;
+}
+
+.form-control {
+  width: 30em !important; 
+  margin-right: 5px;
+  /* width: 100%; */
+}
+
+.item {
+  display: flex;
+/*   height: 34px; */
+}
+
+.randomBtn {
+  margin: 5px 0 0 0 ;
+}
+
+.list-group {
+  margin-top: 25px;
+}
